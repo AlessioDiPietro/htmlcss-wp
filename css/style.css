@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body {
-    margin: 0px 30px;
+    margin: 0px 10%;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -66,11 +66,18 @@ a {
 
 
 /* jumbotron */
-.jumbotron {
-    background-color:#e1d67a;
-    margin-bottom: 25px;
-    height: 350px;
-    /* height da rimuovere */
+.jumbotron { 
+    background-image: url(../img/banner.jpg);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+.testo-jumbo {
+    padding: 400px 50% 100px 40px; 
+
 }
 /* fine jumbotron */
 
