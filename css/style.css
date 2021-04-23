@@ -13,7 +13,6 @@ a {
     text-decoration: none;
     color: #939393;
 }
-
 /* sezione debbug */
 
 /* .debbug .intestazione{
@@ -36,10 +35,10 @@ a {
     height: 300px;
 } */
 
-.debbug .footer{
-    background-color: #8601fe;
-    height: 45px;
-}
+/* footer{
+    background-color:violet;
+    height: 50px;
+} */
 
 /* form header */
 .intestazione {
@@ -143,11 +142,14 @@ h4 {
 .banner p {
     color:#929292
 }
+
 /* fine banner DX,CENTER,SX */
 
 /* fine main */
 
 /* inizio ringraziamento */
 footer {
+    text-align: center;
+    margin-top: 50px;
 }
 /* fine ringraziamento */
