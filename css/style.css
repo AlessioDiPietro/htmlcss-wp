@@ -6,32 +6,29 @@
 }
 body {
     margin: 0px 30px;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* sezione debbug */
-.debbug .intestazione{
+
+/* .debbug .intestazione{
     background-color:#e579e6 ;
     height: 90px;
-    /*height da togliere */
-}
-
+} */
 
 .debbug .container{
     background-color: #0086ff;
     height: 430px;
-    /* height da togliere */
 }
 
 .debbug .sottotitolo{
     background-color:#abcfe7 ;
     height: 65px;
-    /* fine form header */
 }
 
 .debbug .banner{
     background-color:#abcfe7 ;
     height: 300px;
-    /* height da togliere */
 }
 
 
@@ -43,7 +40,6 @@ body {
 .debbug .footer{
     background-color: #8601fe;
     height: 45px;
-    /* height da togliere */
 }
 /* fine sezione debbug */
 
@@ -51,6 +47,15 @@ body {
 #logo {
     height: 90px;
     vertical-align: middle;
+    border-right: 1px solid #e5e5e5;
+    padding-right:20px ;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 30px 10px 10px 0px;
+    font-size: larger;
+    text-transform: uppercase;
 }
 /* fine header */
 
@@ -60,6 +65,7 @@ body {
     background-color:#e1d67a;
     margin-bottom: 25px;
     height: 350px;
+    /* height da rimuovere */
 }
 /* fine jumbotron */
 
