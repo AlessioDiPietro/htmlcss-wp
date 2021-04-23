@@ -10,22 +10,26 @@ body {
 
 /* sezione debbug */
 .debbug .intestazione{
+    background-color:#e579e6 ;
     height: 90px;
     /*height da togliere */
 }
 
 
 .debbug .container{
+    background-color: #0086ff;
     height: 430px;
     /* height da togliere */
 }
 
 .debbug .sottotitolo{
+    background-color:#abcfe7 ;
     height: 65px;
     /* fine form header */
 }
 
 .debbug .banner{
+    background-color:#abcfe7 ;
     height: 300px;
     /* height da togliere */
 }
@@ -33,15 +37,22 @@ body {
 
 /* form header */
 .intestazione {
-    background-color:#e579e6 ;
     margin-bottom: 25px;
 }
 
 .debbug .footer{
+    background-color: #8601fe;
     height: 45px;
     /* height da togliere */
 }
+/* fine sezione debbug */
 
+/* header */
+#logo {
+    height: 90px;
+    vertical-align: middle;
+}
+/* fine header */
 
 
 /* jumbotron */
@@ -54,7 +65,6 @@ body {
 
 /* inizio main */
 .container {
-    background-color: #0086ff;
     margin-bottom: 10px;
 }
 
@@ -66,14 +76,13 @@ body {
 
 /* inizio sottotitolo */
 .sottotitolo {
-    background-color:#abcfe7 ;
+
 }
 /* fine sottotitolo */
 
 /* inizio banner DX,CENTER,SX */
 .banner {
     float: left;
-    background-color:#abcfe7 ;
     margin: 30px 0;
 }
 
@@ -91,7 +100,5 @@ body {
 
 /* inizio ringraziamento */
 footer {
-
-background-color: #8601fe;
 }
 /* fine ringraziamento */
