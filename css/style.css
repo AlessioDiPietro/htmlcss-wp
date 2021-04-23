@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body {
-    margin: 15px 30px;
+    margin: 0px 30px;
 }
 
 /* sezione debbug */
@@ -14,10 +14,6 @@ body {
     /*height da togliere */
 }
 
-.debbug .jumbotron {
-    height: 300px;
-    /* fine form header */
-}
 
 .debbug .container{
     height: 430px;
@@ -52,6 +48,7 @@ body {
 .jumbotron {
     background-color:#e1d67a;
     margin-bottom: 25px;
+    height: 350px;
 }
 /* fine jumbotron */
 
@@ -91,7 +88,6 @@ body {
 /* fine banner DX,CENTER,SX */
 
 /* fine main */
-
 
 /* inizio ringraziamento */
 footer {
