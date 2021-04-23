@@ -1,0 +1,78 @@
+/* common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 15px 30px;
+}
+/* form header */
+header {
+    height: 90px;
+    /*height da togliere */
+    background-color:#e579e6 ;
+    margin-bottom: 25px;
+}
+/* fine form header */
+
+
+/* jumbotron */
+.jumbotron {
+    height: 300px;
+    /* fine form header */
+    background-color:#e1d67a;
+    margin-bottom: 25px;
+}
+/* fine jumbotron */
+
+main {
+    height: 430px;
+    /* height da togliere */
+    background-color: #0086ff;
+    margin-bottom: 10px;
+}
+
+main::after{
+    content: " ";
+    display:table;
+    clear:both;
+}
+
+
+/* inizio sottotitolo */
+.sottotitolo {
+    height: 65px;
+/* fine form header */
+    background-color:#abcfe7 ;
+}
+/* fine sottotitolo */
+
+
+/* inizio banner DX,CENTER,SX */
+.banner {
+    float: left;
+    height: 300px;
+    /* height da togliere */
+    background-color:#abcfe7 ;
+    margin: 30px 0;
+}
+
+.dx, .sx {
+    width: 25%;
+}
+
+.center {
+    width:calc(50% - 30px);
+    margin: 30px 15px;
+}
+/* fine banner DX,CENTER,SX */
+
+
+/* inizio ringraziamento */
+footer {
+height: 45px;
+/* height da togliere */
+background-color: #8601fe;
+}
+/* fine ringraziamento */
