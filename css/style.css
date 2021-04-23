@@ -7,53 +7,75 @@
 body {
     margin: 15px 30px;
 }
-/* form header */
-header {
+
+/* sezione debbug */
+.debbug .intestazione{
     height: 90px;
     /*height da togliere */
+}
+
+.debbug .jumbotron {
+    height: 300px;
+    /* fine form header */
+}
+
+.debbug .container{
+    height: 430px;
+    /* height da togliere */
+}
+
+.debbug .sottotitolo{
+    height: 65px;
+    /* fine form header */
+}
+
+.debbug .banner{
+    height: 300px;
+    /* height da togliere */
+}
+
+
+/* form header */
+.intestazione {
     background-color:#e579e6 ;
     margin-bottom: 25px;
 }
-/* fine form header */
+
+.debbug .footer{
+    height: 45px;
+    /* height da togliere */
+}
+
 
 
 /* jumbotron */
 .jumbotron {
-    height: 300px;
-    /* fine form header */
     background-color:#e1d67a;
     margin-bottom: 25px;
 }
 /* fine jumbotron */
 
-main {
-    height: 430px;
-    /* height da togliere */
+/* inizio main */
+.container {
     background-color: #0086ff;
     margin-bottom: 10px;
 }
 
-main::after{
+.container::after{
     content: " ";
     display:table;
     clear:both;
 }
 
-
 /* inizio sottotitolo */
 .sottotitolo {
-    height: 65px;
-/* fine form header */
     background-color:#abcfe7 ;
 }
 /* fine sottotitolo */
 
-
 /* inizio banner DX,CENTER,SX */
 .banner {
     float: left;
-    height: 300px;
-    /* height da togliere */
     background-color:#abcfe7 ;
     margin: 30px 0;
 }
@@ -68,11 +90,12 @@ main::after{
 }
 /* fine banner DX,CENTER,SX */
 
+/* fine main */
+
 
 /* inizio ringraziamento */
 footer {
-height: 45px;
-/* height da togliere */
+
 background-color: #8601fe;
 }
 /* fine ringraziamento */
