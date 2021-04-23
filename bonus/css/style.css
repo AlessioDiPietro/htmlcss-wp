@@ -139,6 +139,36 @@ h4 {
     margin-top: 10px;
 }
 
+ /* info views */
+.info-views {
+}
+
+.foto-utente {
+    height: 30px;
+    width: 30px;
+    line-height: 20px;
+    vertical-align: middle;
+    border-radius: 50%;
+    border: 1px solid black;
+    float: left;
+}
+
+.info-views::after {
+    content: " ";
+    display:table;
+    clear:both;
+}
+
+.time {
+    font-size: 5px;
+    color: lightgray;
+}
+
+.info-views span{
+    vertical-align: middle;
+}
+
+/* fine info views */
 .banner p {
     color:#929292
 }
